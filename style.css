@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+}
+
+.conteiner {
+    background: url('https://uploads.spiritfanfiction.com/historias/capas/201912/anime-de-esporte-de-pedra-papel-tesoura-18113137-181220190029.gif') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+.content h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: brown;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
